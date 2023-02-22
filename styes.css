@@ -31,10 +31,6 @@
   font-size: 18px;
 }
 
-.part-two {
-  color: purple;
-}
-
 .main-nav {
   float: right;
 }
@@ -52,4 +48,34 @@
   list-style: none;
   color: #FFF;
   text-decoration: none;
+}
+
+.billboard {
+  background: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 40px;
+}
+
+.billboard h2 {
+  margin-top: 0;
+}
+
+.main-col {
+  float: left;
+  width: 70%;
+}
+
+.sidebar-col {
+  padding: 25px 2.5%;
+  background: #ccc;
+  color: black;
+  float: right;
+  width: 20%;
+}
+
+.column-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  
 }
