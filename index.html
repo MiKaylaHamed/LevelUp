@@ -3,14 +3,40 @@
 <head>
   <meta charset="utf-8">
   <title>Our First Website</title>
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
 </head>
   
 <body>
   <!-- This is a comment -->
-  <h1>Our First Website</h1>
-  <p>
-    Our First Text
-  </p>
+  <header class="site-header clearfix">
+    <h1>Our First Website</h1>
+    
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Learning With Level Up Tutorials</h2>
+    <p id="main-text" class="intro-text">
+      I'm learning to 
+      <span style="
+        /* display block; */
+        color: blue;
+        ">build</span> 
+      websites.
+    </p>
+    <p id="main-text" class="intro-text part-two">
+      I'm learning to websites.
+    </p>
+  </main>
+  <footer id="footer">
+    <p>
+      &copy; 2023
+    </p>
+  </footer>
 </body>
 </html>
