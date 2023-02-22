@@ -77,5 +77,31 @@
 .column-wrapper {
   width: 90%;
   margin: 0 auto;
-  
+}
+
+.main-footer {
+  background: #333;
+  color: white;
+  padding: 40px 5%;
+}
+
+.main-footer a {
+  color: white;
+  font-size: 12px;
+}
+.copywright {
+  float: left;
+}
+
+.footer-nav {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li {
+  float: left; 
+}
+
+.footer-nav li + li{
+  margin-left: 10px;
 }
